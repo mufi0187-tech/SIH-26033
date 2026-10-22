@@ -47,6 +47,7 @@ Benefits:
    
 
  3.  Methodology and process for implementation:
+    
    • **Phase 1 (Requirements & Design):** Finalize use-case diagrams, database schema, and UI/UX wireframes.
    • **Phase 2 (Core Development):** Build the user authentication system, product listing catalog, and order placement workflow.
    • **Phase 3 (AI Integration):** Embed the demand forecasting and route optimization algorithms into the backend.
