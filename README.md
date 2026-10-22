@@ -78,34 +78,4 @@ Benefits:
    • NITI Aayog reports on Agricultural Marketing and Farmer Producer Organizations (FPOs).
    • Research papers on machine learning applications in agricultural logistics and demand forecasting.
    
-   +---------------------------------------------------------------------------------+
-|                                 CLIENT LAYER                                    |
-|   +----------------------------+             +------------------------------+   |
-|   |   React.js Web Dashboard   |             |  Flutter Mobile App (Cross-  |   |
-|   |  (For Bulk Buyers & FPOs)  |             | platform: Farmers & Buyers)  |   |
-|   +--------------+-------------+             +--------------+---------------+   |
-+------------------|------------------------------------------|-------------------+
-                   |                                          |
-                   +-------------------+----------------------+
-                                       |
-                                       v
-+---------------------------------------------------------------------------------+
-|                              API & GATEWAY LAYER                                |
-|                   Node.js with Express.js REST/GraphQL APIs                     |
-+----------------------+-----------------------------------+----------------------+
-                       |                                   |
-                       v                                   v
-+-------------------------------------------------+  +----------------------------+
-|                DATABASE LAYER                   |  |      AI & ML ENGINE        |
-|  +---------------------+  +------------------+  |  |  (Python / Scikit-Learn /  |
-|  | MongoDB             |  | PostgreSQL       |  |  |  TensorFlow)               |
-|  | (Unstructured       |  | (Relational user |  |  |  - Demand Forecasting      |
-|  |  Catalog Data)      |  |  & transactions) |  |  |  - Route Optimization      |
-|  +---------------------+  +------------------+  |  +----------------------------+
-+-------------------------------------------------+
-                       |
-                       v
-+---------------------------------------------------------------------------------+
-|                              INFRASTRUCTURE LAYER                               |
-|                         AWS / Firebase Cloud Hosting                            |
-+---------------------------------------------------------------------------------+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7d6357d5-db02-44aa-bb64-e945bea5a8cc" />
