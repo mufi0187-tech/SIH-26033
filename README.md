@@ -42,8 +42,9 @@ Benefits:
    • **Database:** MongoDB for unstructured catalog data and PostgreSQL for relational user and transaction data
    • **AI / Machine Learning:** Python, Scikit-Learn, and TensorFlow for demand prediction and route optimization models
    • **Cloud & Hosting:** AWS / Firebase for scalable backend deployment and storage
+   
 
- 2.  Methodology and process for implementation:
+ 3.  Methodology and process for implementation:
    • **Phase 1 (Requirements & Design):** Finalize use-case diagrams, database schema, and UI/UX wireframes.
    • **Phase 2 (Core Development):** Build the user authentication system, product listing catalog, and order placement workflow.
    • **Phase 3 (AI Integration):** Embed the demand forecasting and route optimization algorithms into the backend.
@@ -76,3 +77,35 @@ Benefits:
 1. • Ministry of Consumer Affairs, Food & Public Distribution guidelines on agricultural supply chains.
    • NITI Aayog reports on Agricultural Marketing and Farmer Producer Organizations (FPOs).
    • Research papers on machine learning applications in agricultural logistics and demand forecasting.
+   
+   +---------------------------------------------------------------------------------+
+|                                 CLIENT LAYER                                    |
+|   +----------------------------+             +------------------------------+   |
+|   |   React.js Web Dashboard   |             |  Flutter Mobile App (Cross-  |   |
+|   |  (For Bulk Buyers & FPOs)  |             | platform: Farmers & Buyers)  |   |
+|   +--------------+-------------+             +--------------+---------------+   |
++------------------|------------------------------------------|-------------------+
+                   |                                          |
+                   +-------------------+----------------------+
+                                       |
+                                       v
++---------------------------------------------------------------------------------+
+|                              API & GATEWAY LAYER                                |
+|                   Node.js with Express.js REST/GraphQL APIs                     |
++----------------------+-----------------------------------+----------------------+
+                       |                                   |
+                       v                                   v
++-------------------------------------------------+  +----------------------------+
+|                DATABASE LAYER                   |  |      AI & ML ENGINE        |
+|  +---------------------+  +------------------+  |  |  (Python / Scikit-Learn /  |
+|  | MongoDB             |  | PostgreSQL       |  |  |  TensorFlow)               |
+|  | (Unstructured       |  | (Relational user |  |  |  - Demand Forecasting      |
+|  |  Catalog Data)      |  |  & transactions) |  |  |  - Route Optimization      |
+|  +---------------------+  +------------------+  |  +----------------------------+
++-------------------------------------------------+
+                       |
+                       v
++---------------------------------------------------------------------------------+
+|                              INFRASTRUCTURE LAYER                               |
+|                         AWS / Firebase Cloud Hosting                            |
++---------------------------------------------------------------------------------+
