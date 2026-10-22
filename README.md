@@ -41,7 +41,9 @@ Benefits:
    • **Backend:** Node.js with Express.js framework
    • **Database:** MongoDB for unstructured catalog data and PostgreSQL for relational user and transaction data
    • **AI / Machine Learning:** Python, Scikit-Learn, and TensorFlow for demand prediction and route optimization models
-   • **Cloud & Hosting:** AWS / Firebase for scalable backend deployment and storage
+   • **Cloud & Hosting:** AWS / Firebase for scalable backend deployment and storage.
+   <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7d6357d5-db02-44aa-bb64-e945bea5a8cc" />
+
    
 
  3.  Methodology and process for implementation:
@@ -77,5 +79,3 @@ Benefits:
 1. • Ministry of Consumer Affairs, Food & Public Distribution guidelines on agricultural supply chains.
    • NITI Aayog reports on Agricultural Marketing and Farmer Producer Organizations (FPOs).
    • Research papers on machine learning applications in agricultural logistics and demand forecasting.
-   
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7d6357d5-db02-44aa-bb64-e945bea5a8cc" />
